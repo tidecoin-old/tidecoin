@@ -24,15 +24,15 @@ uint256 CBlockHeader::GetPoWHash() const
     uint256 thash;
     static const yespower_params_t yespower_microbitcoin = {
             .N = 2048,
-            .r = 32,
-            .pers = (const uint8_t *)"Tibcoin: Post Quantum Safe.",
-            .perslen = 12
+            .r = 8,
+            .pers = (const uint8_t *)"Tidecoin: Post Quantum Security.",
+            .perslen = 32
         };
     
         CDataStream powHead(SER_GETHASH, 0);
         powHead << nVersion  << hashPrevBlock << hashMerkleRoot << nTime << nBits << nNonce;
     
-        if (yespower_tls((unsigned char *)powHead.data(), powHead.size(), &yespower_microbitcoin, (yespower_binary_t *)&thash)) {
+        if (yespower_tls((unsigned char *)powHead.data(), powHead.size(), &yespower_microbitcoin, (yespower_binary_t *)thash.begin())) {
             LogPrintf("Error: GetPoWHash: failed to compute PoW hash (out of memory?)\n");
         }
     

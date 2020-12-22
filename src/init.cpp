@@ -1225,19 +1225,6 @@ bool AppInitLockDataDirectory()
 
 bool AppInitMain(InitInterfaces& interfaces)
 {
-#if 0
-    extern uint32_t  n1,n2,n3,nbits0,nbits1,nbits2,nTimeGen;
-     extern CBlock CreateGenesisBlock0(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward);
-     LogPrintf("n1 %d\n", n1);
-     LogPrintf("n2 %d\n", n2);
-     LogPrintf("n2 %d\n", n3);
-     LogPrintf("main %s\n", CreateGenesisBlock0(nTimeGen, n1, nbits0 , 1, 50 * COIN).GetHash().ToString());
-     LogPrintf("test %s\n", CreateGenesisBlock0(nTimeGen, n2, nbits1, 1, 50 * COIN).GetHash().ToString());
-     LogPrintf("reg %s\n", CreateGenesisBlock0(nTimeGen, n3, nbits2, 1, 50 * COIN).GetHash().ToString());
-     LogPrintf("root %s\n", CreateGenesisBlock0(nTimeGen, n1, nbits0 , 1, 50 * COIN).hashMerkleRoot.ToString());
-     LogPrintf("root %s\n", CreateGenesisBlock0(nTimeGen, n2, nbits1, 1, 50 * COIN).hashMerkleRoot.ToString());
-     LogPrintf("root %s\n", CreateGenesisBlock0(nTimeGen, n3, nbits2, 1, 50 * COIN).hashMerkleRoot.ToString());
-#endif
     const CChainParams& chainparams = Params();
     // ********************************************************* Step 4a: application initialization
     if (!CreatePidFile()) {

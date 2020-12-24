@@ -121,6 +121,7 @@ public:
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
         vSeeds.emplace_back("tidecoin.ddnsgeek.com");
+        vSeeds.emplace_back("tidecoin.theworkpc.com");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,33);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,70);
@@ -139,6 +140,10 @@ public:
 
         checkpointData = {
             {
+                {  1500, uint256S("0xda552768871c635d498904efeb0e7411e5c1b59a066e5948dbc9e42035f26465")},
+                {  3500, uint256S("0x59a2da569f7818ad548df2d269906c49f497c8cb6b2b69d1124331069478873b")},
+                {  5000, uint256S("0x3982b6ec49f37d9c0b3973db7cdff59faeda0a35d7e066b367e32ce57cd4d3f7")},
+                {  7727, uint256S("0x8d5869d7fd9358d1c72ba1312148181aed26d992246f5905774825efa31dbea7")},
             }
         };
 
@@ -208,7 +213,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet-seed.tidecointools.com");
+        vSeeds.emplace_back("tidetest.ddnsgeek.com");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,92);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,132);

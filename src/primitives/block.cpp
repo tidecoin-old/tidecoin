@@ -23,10 +23,11 @@ uint256 CBlockHeader::GetPoWHash() const
 {
     uint256 thash;
     static const yespower_params_t yespower_microbitcoin = {
+            .version = YESPOWER_1_0, 
             .N = 2048,
             .r = 8,
-            .pers = (const uint8_t *)"Tidecoin: Post Quantum Security.",
-            .perslen = 32
+            .pers = NULL,
+            .perslen = 0
         };
     
         CDataStream powHead(SER_GETHASH, 0);

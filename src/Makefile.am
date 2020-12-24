@@ -361,14 +361,16 @@ crypto_libbitcoin_crypto_base_a_SOURCES = \
   crypto/sha512.h \
   crypto/siphash.cpp \
   crypto/siphash.h \
+  crypto/sph_types.h \
   crypto/blake2b.c \
   crypto/blake2b.h \
-  crypto/sph_types.h \
-  crypto/utils/sysendian.h \
+  crypto/yespower/sha256.c \
+  crypto/yespower/sha256.h \
+  crypto/yespower/yespower-ref.c \
   crypto/yespower/yespower.c \
   crypto/yespower/yespower.h \
-  crypto/utils/insecure_memzero.h \
-  crypto/utils/sysendian.h
+  crypto/yespower/insecure_memzero.h \
+  crypto/yespower/sysendian.h
 
 
 $(LIBSECP256K1): 

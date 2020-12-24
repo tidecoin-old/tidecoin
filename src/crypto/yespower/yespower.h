@@ -42,8 +42,8 @@ extern "C" {
  * Use yespower_local_t instead.
  */
 typedef struct {
-    void *base, *aligned;
-    size_t base_size, aligned_size;
+	void *base, *aligned;
+	size_t base_size, aligned_size;
 } yespower_region_t;
 
 /**
@@ -51,20 +51,26 @@ typedef struct {
  */
 typedef yespower_region_t yespower_local_t;
 
+/*
+ * Type for yespower algorithm version numbers.
+ */
+typedef enum { YESPOWER_0_5 = 5, YESPOWER_1_0 = 10 } yespower_version_t;
+
 /**
  * yespower parameters combined into one struct.
  */
 typedef struct {
-    uint32_t N, r;
-    const uint8_t *pers;
-    size_t perslen;
+	yespower_version_t version;
+	uint32_t N, r;
+	const uint8_t *pers;
+	size_t perslen;
 } yespower_params_t;
 
 /**
  * A 256-bit yespower hash.
  */
 typedef struct {
-    unsigned char uc[32];
+	unsigned char uc[32];
 } yespower_binary_t;
 
 /**
@@ -122,3 +128,13 @@ extern int yespower_tls(const uint8_t *src, size_t srclen,
 #endif
 
 #endif /* !_YESPOWER_H_ */
+
+void yespower_hash(const char *input, char *output);
+void yespowerR16_hash(const char *input, char *output);
+void yespowerYTN_hash(const char *input, char *output);
+void yespower_0_5_R8_hash(const char *input, char *output);
+void yespower_0_5_R8G_hash(const char *input, char *output);
+void yespower_0_5_R16_hash(const char *input, char *output);
+void yespower_0_5_R24_hash(const char *input, char *output);
+void yespower_0_5_R32_hash(const char *input, char *output);
+

@@ -364,8 +364,8 @@ crypto_libbitcoin_crypto_base_a_SOURCES = \
   crypto/sph_types.h \
   crypto/blake2b.c \
   crypto/blake2b.h \
-  crypto/yespower/sha256.c \
-  crypto/yespower/sha256.h \
+  crypto/yespower/sha256y.c \
+  crypto/yespower/sha256y.h \
   crypto/yespower/yespower-ref.c \
   crypto/yespower/yespower.c \
   crypto/yespower/yespower.h \

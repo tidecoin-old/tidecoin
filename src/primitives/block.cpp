@@ -16,26 +16,7 @@
 
 uint256 CBlockHeader::GetHash() const
 {
-    //return SerializeHash(*this);
-    uint256 thash;
-    static const yespower_params_t yespower_microbitcoin = {
-            .version = YESPOWER_1_0, 
-            .N = 2048,
-            .r = 8,
-            .pers = NULL,
-            .perslen = 0
-        };
-
-        CDataStream powHead(SER_GETHASH, 0);
-        powHead << nVersion  << hashPrevBlock << hashMerkleRoot << nTime << nBits << nNonce;
-
-        if (yespower_tls((unsigned char *)powHead.data(), powHead.size(), &yespower_microbitcoin, (yespower_binary_t *)thash.begin())) {
-            LogPrintf("Error: GetPoWHash: failed to compute PoW hash (out of memory?)\n");
-        }
-
-
-    return thash;
-    
+    return SerializeHash(*this);   
 }
 
 uint256 CBlockHeader::GetPoWHash() const

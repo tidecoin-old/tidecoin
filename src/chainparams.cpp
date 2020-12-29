@@ -139,7 +139,13 @@ public:
         fMineBlocksOnDemand = false;
 
         checkpointData = {
-            {
+            {            
+              { 1500, uint256S("e588ef31c4ea967932fcd7b487b4a6e9ef2994417b95e84a920bf3d241689167")},
+              { 3000, uint256S("98f019517ad92d0221189b40c75f0e5ffe0367a61dfd03f668b3fccfb89fdb0a")},
+              { 4500, uint256S("b56661efe2a30617162e7974f665b7b0c8f44cf36ade2b85141883528903f914")},
+              { 6000, uint256S("0a2f3c68489fc3a6139a47844fd2e0b6d64f2fd910e7ecfc95e770ea4d833097")},
+              { 8000, uint256S("d622d8bdcea37448de74f81ae7303c0c22c8660fcd264bb9b176258b8f4b9746")},
+              { 8696, uint256S("342c045b4a718b6c5523a918bd77bb0cfbc8616f66da380308dcc5826c6d4008")},
             }
         };
 

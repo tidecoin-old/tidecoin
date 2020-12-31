@@ -34,7 +34,7 @@ uint256 CBlockHeader::GetPoWHash() const
         powHead << nVersion  << hashPrevBlock << hashMerkleRoot << nTime << nBits << nNonce;
     
         if (yespower_tls((unsigned char *)powHead.data(), powHead.size(), &yespower_microbitcoin, (yespower_binary_t *)thash.begin())) {
-            LogPrintf("Error: GetPoWHash: failed to compute PoW hash (out of memory?)\n");
+            //printf("Error: GetPoWHash: failed to compute PoW hash (out of memory?)\n");
         }
     
     

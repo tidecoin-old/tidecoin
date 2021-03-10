@@ -1131,7 +1131,7 @@
     </message>
     <message>
         <source>Automatically open the Tidecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>라우터에서 타드코인 클라이언트 포트를 자동적으로 엽니다. 라우터에서 UPnP를 지원하고 활성화 했을 경우에만 동작합니다.</translation>
+        <translation>라우터에서 타이드코인 클라이언트 포트를 자동적으로 엽니다. 라우터에서 UPnP를 지원하고 활성화 했을 경우에만 동작합니다.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

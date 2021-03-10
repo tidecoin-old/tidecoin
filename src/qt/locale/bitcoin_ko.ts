@@ -67,11 +67,11 @@
     </message>
     <message>
         <source>These are your Tidecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>이것은 라이트코인 전송을 위한 주소입니다. 코인을 보내기 전에 항상 받는 주소와 수량을 확인하세요</translation>
+        <translation>이것은 타이드코인 전송을 위한 주소입니다. 코인을 보내기 전에 항상 받는 주소와 수량을 확인하세요</translation>
     </message>
     <message>
         <source>These are your Tidecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>이것은 라이트코인 수신을 위한 주소입니다. 코인을 받을 때 마다 항상 다른 주소를 사용 하시는 것을 권장합니다.</translation>
+        <translation>이것은 타이드코인 수신을 위한 주소입니다. 코인을 받을 때 마다 항상 다른 주소를 사용 하시는 것을 권장합니다.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -157,7 +157,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>경고: 지갑이 암호화된 상태로 당신의 암호문을 잃어버리셨다면, 당신은 &lt;b&gt;모든 라이트코인을 잃게됩니다&lt;/b&gt;!</translation>
+        <translation>경고: 지갑이 암호화된 상태로 당신의 암호문을 잃어버리셨다면, 당신은 &lt;b&gt;모든 타이드코인을 잃게됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -315,7 +315,7 @@
     </message>
     <message>
         <source>Send coins to a Tidecoin address</source>
-        <translation>라이트코인 주소로 코인 보내기</translation>
+        <translation>타이드코인 주소로 코인 보내기</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>

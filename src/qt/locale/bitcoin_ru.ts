@@ -189,7 +189,7 @@
     </message>
     <message>
         <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your tidecoins from being stolen by malware infecting your computer.</source>
-        <translation>Бумажник зашифрован. Помните, что шифрование не способно полностью защитить Ваши лайткоины, которые могут быть украдены вредоносным ПО</translation>
+        <translation>Бумажник зашифрован. Помните, что шифрование не способно полностью защитить Ваши тайдкоины, которые могут быть украдены вредоносным ПО</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>

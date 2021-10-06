@@ -176,8 +176,8 @@
         <translation>Conferma la cifratura del portafoglio</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Attenzione: Se si cifra il portamonete e si perde la passphrase &lt;b&gt;TUTTI I PROPRI LITECOIN ANDRANNO PERSI&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIDECOINS&lt;/b&gt;!</source>
+        <translation>Attenzione: Se si cifra il portamonete e si perde la passphrase &lt;b&gt;TUTTI I PROPRI TIDECOIN ANDRANNO PERSI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

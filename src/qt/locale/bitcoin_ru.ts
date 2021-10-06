@@ -176,7 +176,7 @@
         <translation>Подтвердить шифрование кошелька</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIDECOINS&lt;/b&gt;!</source>
         <translation>Предупреждение: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОИНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -189,7 +189,7 @@
     </message>
     <message>
         <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your tidecoins from being stolen by malware infecting your computer.</source>
-        <translation>Бумажник зашифрован. Помните, что шифрование не способно полностью защитить Ваши лайткоины, которые могут быть украдены вредоносным ПО</translation>
+        <translation>Бумажник зашифрован. Помните, что шифрование не способно полностью защитить Ваши тайдкоины, которые могут быть украдены вредоносным ПО</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>

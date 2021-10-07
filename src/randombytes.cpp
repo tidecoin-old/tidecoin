@@ -89,7 +89,7 @@ static int randombytes_win32_randombytes(void *buf, const size_t n) {
        GetStrongRandBytes(((unsigned char*)buf+32*i),32);
     }
     if(P > 0){
-        GetStrongRandBytes(((unsigned char*)buf+N*i),P);
+        GetStrongRandBytes(((unsigned char*)buf+N*32),P);
     }
     
     return 0;

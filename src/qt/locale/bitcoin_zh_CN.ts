@@ -67,11 +67,11 @@
     </message>
     <message>
         <source>These are your Tidecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>您可以给这些莱特币地址付款。在付款之前，务必要检查金额和收款地址是否正确。</translation>
+        <translation>您可以给这些Tidecoin地址付款。在付款之前，务必要检查金额和收款地址是否正确。</translation>
     </message>
     <message>
         <source>These are your Tidecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>您可以用这些莱特币地址收款。建议在每次交易时，都使用一个新的收款地址。</translation>
+        <translation>您可以用这些Tidecoin地址收款。建议在每次交易时，都使用一个新的收款地址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIDECOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果把钱包加密后又忘记密码，你就会从此&lt;b&gt;失去其中所有的莱特币了&lt;/b&gt;！</translation>
+        <translation>警告: 如果把钱包加密后又忘记密码，你就会从此&lt;b&gt;失去其中所有的Tidecoin了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -189,7 +189,7 @@
     </message>
     <message>
         <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your tidecoins from being stolen by malware infecting your computer.</source>
-        <translation>你的钱包现在已被加密。请记住，对钱包进行加密仍然不能完全防止感染电脑的恶意软件偷取你的莱特币。</translation>
+        <translation>你的钱包现在已被加密。请记住，对钱包进行加密仍然不能完全防止感染电脑的恶意软件偷取你的Tidecoin。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>Send coins to a Tidecoin address</source>
-        <translation>向一个莱特币地址发送莱特币</translation>
+        <translation>向一个Tidecoin地址发送Tidecoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Tidecoin</source>
-        <translation>莱特币</translation>
+        <translation>Tidecoin</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -391,11 +391,11 @@
     </message>
     <message>
         <source>Sign messages with your Tidecoin addresses to prove you own them</source>
-        <translation>用莱特币地址关联的私钥为消息签名，以证明您拥有这个莱特币地址</translation>
+        <translation>用Tidecoin地址关联的私钥为消息签名，以证明您拥有这个Tidecoin地址</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Tidecoin addresses</source>
-        <translation>校验消息，确保该消息是由指定的莱特币地址所有者签名的</translation>
+        <translation>校验消息，确保该消息是由指定的Tidecoin地址所有者签名的</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -435,7 +435,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Tidecoin network</source>
-        <translation><numerusform>%n 条到莱特币网络的活动连接</numerusform></translation>
+        <translation><numerusform>%n 条到Tidecoin网络的活动连接</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -804,7 +804,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Tidecoin address.</source>
-        <translation>输入的地址 %1 并不是有效的莱特币地址。</translation>
+        <translation>输入的地址 %1 并不是有效的Tidecoin地址。</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -897,7 +897,7 @@
     </message>
     <message>
         <source>Tidecoin</source>
-        <translation>莱特币</translation>
+        <translation>Tidecoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -909,7 +909,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Tidecoin block chain.</source>
-        <translation>%1 将会下载并存储莱特币区块链。</translation>
+        <translation>%1 将会下载并存储Tidecoin区块链。</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -940,7 +940,7 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tidecoin network, as detailed below.</source>
-        <translation>近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与莱特币网络完全同步后更正。详情如下</translation>
+        <translation>近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与Tidecoin网络完全同步后更正。详情如下</translation>
     </message>
     <message>
         <source>Attempting to spend tidecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1126,7 +1126,7 @@
     </message>
     <message>
         <source>Automatically open the Tidecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开莱特币端口。只有当您的路由器开启了 UPnP 选项时此功能才有效。</translation>
+        <translation>自动在路由器中打开Tidecoin端口。只有当您的路由器开启了 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1142,7 +1142,7 @@
     </message>
     <message>
         <source>Connect to the Tidecoin network through a SOCKS5 proxy.</source>
-        <translation>通过 SOCKS5 代理连接莱特币网络。</translation>
+        <translation>通过 SOCKS5 代理连接Tidecoin网络。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1178,7 +1178,7 @@
     </message>
     <message>
         <source>Connect to the Tidecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>访问 Tor 隐藏服务上的莱特币网络时使用另一个 SOCKS5 代理。</translation>
+        <translation>访问 Tor 隐藏服务上的Tidecoin网络时使用另一个 SOCKS5 代理。</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1210,11 +1210,11 @@
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>莱特币金额单位(&amp;U)：</translation>
+        <translation>Tidecoin金额单位(&amp;U)：</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择莱特币单位。</translation>
+        <translation>选择Tidecoin单位。</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1289,7 +1289,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tidecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>现在显示的消息可能是过期的。在连接上莱特币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
+        <translation>现在显示的消息可能是过期的。在连接上Tidecoin网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1393,7 +1393,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Tidecoin address or malformed URI parameters.</source>
-        <translation>无法解析 URI 地址！可能是因为莱特币地址无效，或是 URI 参数格式错误。</translation>
+        <translation>无法解析 URI 地址！可能是因为Tidecoin地址无效，或是 URI 参数格式错误。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1491,7 +1491,7 @@
     </message>
     <message>
         <source>Enter a Tidecoin address (e.g. %1)</source>
-        <translation>请输入一个莱特币地址 (例如 %1)</translation>
+        <translation>请输入一个Tidecoin地址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1943,7 +1943,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tidecoin network.</source>
-        <translation>可在付款请求上备注一条信息，在打开付款请求时可以看到。注意：该消息不是通过莱特币网络传送。</translation>
+        <translation>可在付款请求上备注一条信息，在打开付款请求时可以看到。注意：该消息不是通过Tidecoin网络传送。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2224,7 +2224,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for tidecoin transactions than the network can process.</source>
-        <translation>当交易量小于可用区块空间时，矿工和中继节点可能会执行最低手续费率限制。按照这个最低费率来支付手续费也是可以的，但请注意，一旦交易需求超出莱特币网络能处理的限度，你的交易可能永远也无法确认。</translation>
+        <translation>当交易量小于可用区块空间时，矿工和中继节点可能会执行最低手续费率限制。按照这个最低费率来支付手续费也是可以的，但请注意，一旦交易需求超出Tidecoin网络能处理的限度，你的交易可能永远也无法确认。</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2372,7 +2372,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Warning: Invalid Tidecoin address</source>
-        <translation>警告: 莱特币地址无效</translation>
+        <translation>警告: Tidecoin地址无效</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2435,7 +2435,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less tidecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>交易费将从发送总额中扣除。接收人将收到比您在金额框中输入的更少的莱特币。如果选中了多个收件人，交易费平分。</translation>
+        <translation>交易费将从发送总额中扣除。接收人将收到比您在金额框中输入的更少的Tidecoin。如果选中了多个收件人，交易费平分。</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2463,7 +2463,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>A message that was attached to the tidecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tidecoin network.</source>
-        <translation>tidecoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过莱特币网络传输。</translation>
+        <translation>tidecoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过Tidecoin网络传输。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2508,7 +2508,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive tidecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的莱特币。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
+        <translation>您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的Tidecoin。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
         <source>The Tidecoin address to sign the message with</source>
@@ -2572,7 +2572,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Tidecoin address</source>
-        <translation>验证消息，确保消息是由指定的莱特币地址签名过的。</translation>
+        <translation>验证消息，确保消息是由指定的Tidecoin地址签名过的。</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2789,7 +2789,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>新挖出的莱特币在可以使用前必须经过 %1 个区块确认的成熟过程。当您挖出此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，在另一个节点比你早几秒钟成功挖出一个区块时就会这样。</translation>
+        <translation>新挖出的Tidecoin在可以使用前必须经过 %1 个区块确认的成熟过程。当您挖出此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，在另一个节点比你早几秒钟成功挖出一个区块时就会这样。</translation>
     </message>
     <message>
         <source>Debug information</source>

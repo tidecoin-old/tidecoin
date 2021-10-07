@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Tidecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>እነኚ የቢትኮይን ክፍያ የመላኪያ አድራሻዎችዎ ናቸው:: ገንዘብ/ኮይኖች ከመላክዎ በፊት መጠኑን እና የመቀበያ አድራሻውን ሁልጊዜ ያረጋግጡ::</translation>
+        <translation>እነኚ Tidecoin ክፍያ የመላኪያ አድራሻዎችዎ ናቸው:: ገንዘብ/ኮይኖች ከመላክዎ በፊት መጠኑን እና የመቀበያ አድራሻውን ሁልጊዜ ያረጋግጡ::</translation>
     </message>
     <message>
         <source>These are your Tidecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>እነኚ የቢትኮይን ክፍያ የመቀበያ አድራሻዎችዎ ናቸው:: ለእያንዳንዱ ግብይት አዲስ የመቀበያ አድራሻ እንዲጠቀሙ ይመከራል:: </translation>
+        <translation>እነኚ Tidecoin ክፍያ የመቀበያ አድራሻዎችዎ ናቸው:: ለእያንዳንዱ ግብይት አዲስ የመቀበያ አድራሻ እንዲጠቀሙ ይመከራል:: </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -137,23 +137,23 @@
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>የቢትኮይን ቦርሳውን አመስጥር</translation>
+        <translation>Tidecoin ቦርሳውን አመስጥር</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>ይህ ክንዋኔ የቢትኮይን ቦርሳዎን ለመክፈት የቦርሳዎ ይለፍ-ሐረግ ያስፈልገዋል::</translation>
+        <translation>ይህ ክንዋኔ Tidecoin ቦርሳዎን ለመክፈት የቦርሳዎ ይለፍ-ሐረግ ያስፈልገዋል::</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>የቢትኮይን ቦርሳውን ክፈት</translation>
+        <translation>Tidecoin ቦርሳውን ክፈት</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>ይህ ክንዋኔ የቢትኮይን ቦርሳዎን ለመፍታት የቦርሳዎ ይለፍ-ሐረግ ያስፈልገዋል::</translation>
+        <translation>ይህ ክንዋኔ Tidecoin ቦርሳዎን ለመፍታት የቦርሳዎ ይለፍ-ሐረግ ያስፈልገዋል::</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>የቢትኮይን ቦርሳውን ፍታ</translation>
+        <translation>Tidecoin ቦርሳውን ፍታ</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -165,11 +165,11 @@
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>የቢትኮይን ቦርሳዎን ማመስጠር ያረጋግጡ</translation>
+        <translation>Tidecoin ቦርሳዎን ማመስጠር ያረጋግጡ</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIDECOINS&lt;/b&gt;!</source>
-        <translation>ማስጠንቀቂያ: የቢትኮይን ቦርሳዎን አመስጥረው የይለፍ-ሐረግዎን ካጡት&lt;b&gt;ቢትኮይኖቾን በሙሉ ያጣሉ&lt;/b&gt;!</translation>
+        <translation>ማስጠንቀቂያ: Tidecoin ቦርሳዎን አመስጥረው የይለፍ-ሐረግዎን ካጡት&lt;b&gt;ቢትኮይኖቾን በሙሉ ያጣሉ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>

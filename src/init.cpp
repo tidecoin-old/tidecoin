@@ -555,7 +555,7 @@ void SetupServerArgs()
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/tidecoin-project/tidecoin>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/tidecoin/tidecoin>";
     const std::string URL_WEBSITE = "<https://tidecoin.org>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +

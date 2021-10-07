@@ -81,28 +81,20 @@ THE SOFTWARE.
 #endif /* defined(__EMSCRIPTEN__) */
 
 #if defined(_WIN32)
+void GetStrongRandBytes(unsigned char* buf, int num);
 static int randombytes_win32_randombytes(void *buf, const size_t n) {
-    HCRYPTPROV ctx;
-    BOOL tmp;
-
-    tmp = CryptAcquireContext(&ctx, NULL, NULL, PROV_RSA_FULL,
-                              CRYPT_VERIFYCONTEXT);
-    if (tmp == FALSE) {
-        return -1;
+    unsigned int N = n/32;
+    unsigned int P = n%32;
+    for(unsigned int i=0; i < N; i++){
+       GetStrongRandBytes(((unsigned char*)buf+32*i),32);
     }
-
-    tmp = CryptGenRandom(ctx, (DWORD)n, (BYTE *)buf);
-    if (tmp == FALSE) {
-        return -1;
+    if(P > 0){
+        GetStrongRandBytes(((unsigned char*)buf+N*i),P);
     }
-
-    tmp = CryptReleaseContext(ctx, 0);
-    if (tmp == FALSE) {
-        return -1;
-    }
-
+    
     return 0;
 }
+
 #endif /* defined(_WIN32) */
 
 #if defined(__linux__) && defined(SYS_getrandom)

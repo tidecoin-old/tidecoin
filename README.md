@@ -14,6 +14,8 @@ with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Tidecoin Core is the name of open source
 software which enables the use of this currency.
 
+Tidecoin is Post Quantum Security, by introducing new cryptography algorithm 'Falcon', which is a lattice-based cryptography algorithm. The algorithm is based on the theoretical framework of Gentry, Peikert and Vaikuntanathan. There is no efficient solving algorithm currently known in the general case, even with the help of quantum computers, because the underlying, difficult problem is the short integer solution problem (SIS) over NTRU lattices.
+
 For more information, as well as an immediately useable, binary version of
 the Tidecoin Core software, see [http://tidecoin.org](http://tidecoin.org).
 

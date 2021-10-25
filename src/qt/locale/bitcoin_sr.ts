@@ -67,11 +67,11 @@
     </message>
     <message>
         <source>These are your Tidecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ово су ваше Биткоин адресе за слање уплата. Увек добро проверите износ и адресу на коју шаљете пре него што пошаљете уплату.</translation>
+        <translation>Ово су ваше Тайдкоин адресе за слање уплата. Увек добро проверите износ и адресу на коју шаљете пре него што пошаљете уплату.</translation>
     </message>
     <message>
         <source>These are your Tidecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ово су ваше Биткоин адресе за примање уплате. Препоручује се да се за сваку трансакцију користи нова адреса.</translation>
+        <translation>Ово су ваше Тайдкоин адресе за примање уплате. Препоручује се да се за сваку трансакцију користи нова адреса.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIDECOINS&lt;/b&gt;!</source>
-        <translation>Упозорење: Уколико шифрирате новчаник и изгубите своју лозинку, &lt;b&gt;ИЗГУБИЋЕТЕ СВЕ СВОЈЕ БИТКОИНЕ&lt;/b&gt;!</translation>
+        <translation>Упозорење: Уколико шифрирате новчаник и изгубите своју лозинку, &lt;b&gt;ИЗГУБИЋЕТЕ СВЕ СВОЈЕ ТАЙДКОИНЕ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -339,7 +339,7 @@
     </message>
     <message>
         <source>Send coins to a Tidecoin address</source>
-        <translation>Пошаљите новац на Биткоин адресу</translation>
+        <translation>Пошаљите новац на Тайдкоин адресу</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -363,7 +363,7 @@
     </message>
     <message>
         <source>Tidecoin</source>
-        <translation>Биткоин</translation>
+        <translation>Тайдкоин</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -387,11 +387,11 @@
     </message>
     <message>
         <source>Sign messages with your Tidecoin addresses to prove you own them</source>
-        <translation>Потписуј поруку са своје Биткоин адресе као доказ да си њихов власник</translation>
+        <translation>Потписуј поруку са своје Тайдкоин адресе као доказ да си њихов власник</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Tidecoin addresses</source>
-        <translation>Верификуј поруке и утврди да ли су потписане од стране спецификованих Биткоин адреса</translation>
+        <translation>Верификуј поруке и утврди да ли су потписане од стране спецификованих Тайдкоин адреса</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -431,7 +431,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Tidecoin network</source>
-        <translation><numerusform>%n aктивна веза са Биткоин мрежом</numerusform><numerusform>%n aктивних веза са Биткоин мрежом</numerusform><numerusform>%n aктивних веза са Биткоин мрежом</numerusform></translation>
+        <translation><numerusform>%n aктивна веза са Тайдкоин мрежом</numerusform><numerusform>%n aктивних веза са Тайдкоин мрежом</numerusform><numerusform>%n aктивних веза са Тайдкоин мрежом</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -475,7 +475,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Tidecoin command-line options</source>
-        <translation>Прикажи  поруку помоћи %1 за листу са могућим опцијама Биткоин командне линије</translation>
+        <translation>Прикажи  поруку помоћи %1 за листу са могућим опцијама Тайдкоин командне линије</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -551,7 +551,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Tidecoin can no longer continue safely and will quit.</source>
-        <translation>Дошло је до критичне грешке. Биткоин не може безбедно да настави са радом и искључиће се.</translation>
+        <translation>Дошло је до критичне грешке. Тайдкоин не може безбедно да настави са радом и искључиће се.</translation>
     </message>
 </context>
 <context>
@@ -807,7 +807,7 @@
     </message>
     <message>
         <source>Tidecoin</source>
-        <translation>Биткоин</translation>
+        <translation>Тайдкоин</translation>
     </message>
     <message>
         <source>Error</source>

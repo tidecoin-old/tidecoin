@@ -127,7 +127,7 @@
     </message>
     <message>
         <source>Send coins to a Tidecoin address</source>
-        <translation>Испрати лайткоини на Биткоин адреса</translation>
+        <translation>Испрати лайткоини на Тайдкоин адреса</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -135,7 +135,7 @@
     </message>
     <message>
         <source>Tidecoin</source>
-        <translation>Биткоин</translation>
+        <translation>Тайдкоин</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -288,7 +288,7 @@
     <name>Intro</name>
     <message>
         <source>Tidecoin</source>
-        <translation>Биткоин</translation>
+        <translation>Тайдкоин</translation>
     </message>
     <message>
         <source>Error</source>
@@ -578,7 +578,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>Tidecoin Core</source>
-        <translation>Биткоин Core</translation>
+        <translation>Тайдкоин Core</translation>
     </message>
     <message>
         <source>Warning</source>

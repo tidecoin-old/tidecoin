@@ -1183,7 +1183,7 @@
     </message>
     <message>
         <source>Connect to the Tidecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Соединяться к Биткоин-сети через отдельные SOCKS5 прокси через Tor hidden services:</translation>
+        <translation>Соединяться к Тайдкоин-сети через отдельные SOCKS5 прокси через Tor hidden services:</translation>
     </message>
     <message>
         <source>&amp;Window</source>

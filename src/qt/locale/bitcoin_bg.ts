@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIDECOINS&lt;/b&gt;!</source>
-        <translation>ВНИМАНИЕ: Ако шифрирате вашият портфейл и изгубите паролата си, &lt;b&gt;ЩЕ ИЗГУБИТЕ ВСИЧКИТЕ СИ БИТКОИНИ&lt;/b&gt;!</translation>
+        <translation>ВНИМАНИЕ: Ако шифрирате вашият портфейл и изгубите паролата си, &lt;b&gt;ЩЕ ИЗГУБИТЕ ВСИЧКИТЕ СИ ТАЙДКОИНИ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Send coins to a Tidecoin address</source>
-        <translation>Изпращане към Биткоин адрес</translation>
+        <translation>Изпращане към Тайдкоин адрес</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -359,7 +359,7 @@
     </message>
     <message>
         <source>Tidecoin</source>
-        <translation>Биткоин</translation>
+        <translation>Тайдкоин</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -719,7 +719,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Tidecoin address.</source>
-        <translation>"%1" не е валиден Биткоин адрес.</translation>
+        <translation>"%1" не е валиден Тайдкоин адрес.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -796,7 +796,7 @@
     </message>
     <message>
         <source>Tidecoin</source>
-        <translation>Биткоин</translation>
+        <translation>Тайдкоин</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -1024,7 +1024,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tidecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
+        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Тайдкоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1838,7 +1838,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Tidecoin address</source>
-        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Тайдкоин адрес</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

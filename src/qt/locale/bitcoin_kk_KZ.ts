@@ -71,7 +71,7 @@
     </message>
     <message>
         <source>Tidecoin</source>
-        <translation>Биткоин</translation>
+        <translation>Тайдкоин</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -166,7 +166,7 @@
     <name>Intro</name>
     <message>
         <source>Tidecoin</source>
-        <translation>Биткоин</translation>
+        <translation>Тайдкоин</translation>
     </message>
     <message>
         <source>Error</source>
